@@ -131,7 +131,7 @@ class DBC:
         return temp_buf
 
 if __name__ == '__main__':
-    TEST_DBC = DBC("DataBase/test.dbc")
-    ExtractMsg = TEST_DBC.extractnode("node")
+    TEST_DBC = DBC("test.dbc")
+    ExtractMsg = TEST_DBC.extractnode("POT")
     print(TEST_DBC.BU)
     print(ExtractMsg)
